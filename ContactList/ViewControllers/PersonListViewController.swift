@@ -13,6 +13,8 @@ final class PersonListViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.rowHeight = 50
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
