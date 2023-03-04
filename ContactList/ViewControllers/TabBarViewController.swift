@@ -15,11 +15,9 @@ final class TabBarViewController: UITabBarController {
         super.viewDidLoad()
         
         viewControllers?.forEach { viewController in
-            guard let navigationVC = viewController as? UINavigationController else { return }
-            
-            if let personListVC = navigationVC.topViewController as? PersonListViewController {
+            if let personListVC = viewController as? PersonListViewController {
                 personListVC.persons = persons
-            } else if let detailedPersonListVC = navigationVC.topViewController
+            } else if let detailedPersonListVC = viewController
                         as? DetailedPersonListViewController {
                 detailedPersonListVC.persons = persons
             }
