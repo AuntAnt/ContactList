@@ -32,7 +32,7 @@ extension DetailedPersonListViewController {
         var content = cell.defaultContentConfiguration()
         
         if (indexPath.row == 0) {
-            content.text = String(persons[indexPath.section].phone)
+            content.text = persons[indexPath.section].phone
             content.image = UIImage(systemName: "phone")
         } else {
             content.text = persons[indexPath.section].email
@@ -41,5 +41,9 @@ extension DetailedPersonListViewController {
         
         cell.contentConfiguration = content
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }

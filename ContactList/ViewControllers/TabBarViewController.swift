@@ -19,7 +19,8 @@ final class TabBarViewController: UITabBarController {
             
             if let personListVC = navigationVC.topViewController as? PersonListViewController {
                 personListVC.persons = persons
-            } else if let detailedPersonListVC = navigationVC.topViewController as? DetailedPersonListViewController {
+            } else if let detailedPersonListVC = navigationVC.topViewController
+                        as? DetailedPersonListViewController {
                 detailedPersonListVC.persons = persons
             }
         }

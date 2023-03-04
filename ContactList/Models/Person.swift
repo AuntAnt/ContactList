@@ -8,7 +8,7 @@
 struct Person {
     let name: String
     let surname: String
-    let phone: Int
+    let phone: String
     let email: String
     
     var fullName: String {
@@ -19,18 +19,18 @@ struct Person {
         var persons: [Person] = []
         let dataSource = DataStore()
         
-        for _ in 0..<dataSource.names.count {
-            let nameIndex = Int.random(in: 0..<dataSource.names.count)
-            let surnameIndex = Int.random(in: 0..<dataSource.surnames.count)
-            let phoneIndex = Int.random(in: 0..<dataSource.phones.count)
-            let emailIndex = Int.random(in: 0..<dataSource.emails.count)
-            
+        let names = dataSource.names.shuffled()
+        let surnames = dataSource.surnames.shuffled()
+        let phones = dataSource.phones.shuffled()
+        let emails = dataSource.emails.shuffled()
+        
+        for index in 0..<names.count {
             persons.append(
                 Person(
-                    name: dataSource.names.remove(at: nameIndex),
-                    surname: dataSource.surnames.remove(at: surnameIndex),
-                    phone: dataSource.phones.remove(at: phoneIndex),
-                    email: dataSource.emails.remove(at: emailIndex)
+                    name: names[index],
+                    surname: surnames[index],
+                    phone: phones[index],
+                    email: emails[index]
                 )
             )
         }

@@ -8,7 +8,7 @@
 import Foundation
 
 final class DataStore {
-    var names: [String] = [
+    let names = [
         "Arthur",
         "John",
         "Dutch",
@@ -21,7 +21,7 @@ final class DataStore {
         "Mary"
     ]
     
-    var surnames: [String] = [
+    let surnames = [
         "Morgan",
         "Marston",
         "van der Linde",
@@ -34,21 +34,20 @@ final class DataStore {
         "Linton"
     ]
     
-    var phones: [Int] = [
-        6147413635,
-        1228607556,
-        8056332938,
-        2181714318,
-        5014555601,
-        1195344243,
-        9807439448,
-        6023287477,
-        5033527886,
-        7864646384
-
+    let phones = [
+        "6147413635",
+        "1228607556",
+        "8056332938",
+        "2181714318",
+        "5014555601",
+        "1195344243",
+        "9807439448",
+        "6023287477",
+        "5033527886",
+        "7864646384"
     ]
     
-    var emails: [String] = [
+    let emails = [
         "aaa@mail.com",
         "bbb@mail.com",
         "ccc@mail.com",
