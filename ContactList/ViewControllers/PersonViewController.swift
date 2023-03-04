@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PersonViewController: UIViewController {
+final class PersonViewController: UIViewController {
     
     @IBOutlet var phoneLabel: UILabel!
     @IBOutlet var emailLabel: UILabel!
