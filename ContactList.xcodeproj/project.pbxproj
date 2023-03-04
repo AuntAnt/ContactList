@@ -16,6 +16,7 @@
 		9BD0BDD729B2669C004F9D26 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD0BDD629B2669C004F9D26 /* Person.swift */; };
 		9BD0BDDA29B26772004F9D26 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD0BDD929B26772004F9D26 /* DataStore.swift */; };
 		9BD0BDDC29B273D1004F9D26 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD0BDDB29B273D1004F9D26 /* PersonViewController.swift */; };
+		9BEAE22D29B28EAC00498636 /* DetailedPersonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEAE22C29B28EAC00498636 /* DetailedPersonListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9BD0BDD629B2669C004F9D26 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		9BD0BDD929B26772004F9D26 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		9BD0BDDB29B273D1004F9D26 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		9BEAE22C29B28EAC00498636 /* DetailedPersonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedPersonListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				9BD0BDC229B260B6004F9D26 /* PersonListViewController.swift */,
 				9BD0BDDB29B273D1004F9D26 /* PersonViewController.swift */,
+				9BEAE22C29B28EAC00498636 /* DetailedPersonListViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				9BD0BDBF29B260B6004F9D26 /* AppDelegate.swift in Sources */,
 				9BD0BDD729B2669C004F9D26 /* Person.swift in Sources */,
 				9BD0BDDA29B26772004F9D26 /* DataStore.swift in Sources */,
+				9BEAE22D29B28EAC00498636 /* DetailedPersonListViewController.swift in Sources */,
 				9BD0BDC129B260B6004F9D26 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
