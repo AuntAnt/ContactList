@@ -25,12 +25,13 @@ struct Person {
             let phoneIndex = Int.random(in: 0..<dataSource.phones.count)
             let emailIndex = Int.random(in: 0..<dataSource.emails.count)
             
-            persons.append(Person(
-                name: dataSource.names.remove(at: nameIndex),
-                surname: dataSource.surnames.remove(at: surnameIndex),
-                phone: dataSource.phones.remove(at: phoneIndex),
-                email: dataSource.emails.remove(at: emailIndex)
-            )
+            persons.append(
+                Person(
+                    name: dataSource.names.remove(at: nameIndex),
+                    surname: dataSource.surnames.remove(at: surnameIndex),
+                    phone: dataSource.phones.remove(at: phoneIndex),
+                    email: dataSource.emails.remove(at: emailIndex)
+                )
             )
         }
         

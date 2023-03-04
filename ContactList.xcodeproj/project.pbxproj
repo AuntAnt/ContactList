@@ -17,6 +17,7 @@
 		9BD0BDDA29B26772004F9D26 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD0BDD929B26772004F9D26 /* DataStore.swift */; };
 		9BD0BDDC29B273D1004F9D26 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD0BDDB29B273D1004F9D26 /* PersonViewController.swift */; };
 		9BEAE22D29B28EAC00498636 /* DetailedPersonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEAE22C29B28EAC00498636 /* DetailedPersonListViewController.swift */; };
+		9BEAE22F29B33FD100498636 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEAE22E29B33FD100498636 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		9BD0BDD929B26772004F9D26 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		9BD0BDDB29B273D1004F9D26 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
 		9BEAE22C29B28EAC00498636 /* DetailedPersonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedPersonListViewController.swift; sourceTree = "<group>"; };
+		9BEAE22E29B33FD100498636 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				9BD0BDC229B260B6004F9D26 /* PersonListViewController.swift */,
 				9BD0BDDB29B273D1004F9D26 /* PersonViewController.swift */,
 				9BEAE22C29B28EAC00498636 /* DetailedPersonListViewController.swift */,
+				9BEAE22E29B33FD100498636 /* TabBarViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BEAE22F29B33FD100498636 /* TabBarViewController.swift in Sources */,
 				9BD0BDC329B260B6004F9D26 /* PersonListViewController.swift in Sources */,
 				9BD0BDDC29B273D1004F9D26 /* PersonViewController.swift in Sources */,
 				9BD0BDBF29B260B6004F9D26 /* AppDelegate.swift in Sources */,

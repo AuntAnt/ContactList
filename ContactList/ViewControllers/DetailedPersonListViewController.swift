@@ -9,7 +9,8 @@ import UIKit
 
 final class DetailedPersonListViewController: UITableViewController {
     
-    private let persons = Person.getPersons()
+    var persons: [Person]!
+    
 }
 
 // MARK: - UITableViewDataSource
@@ -27,10 +28,8 @@ extension DetailedPersonListViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         let cell = tableView.dequeueReusableCell(withIdentifier: "detailedPerson", for: indexPath)
         var content = cell.defaultContentConfiguration()
-
         
         if (indexPath.row == 0) {
             content.text = String(persons[indexPath.section].phone)

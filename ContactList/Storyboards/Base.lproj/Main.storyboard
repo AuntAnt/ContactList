@@ -136,7 +136,7 @@
                 <navigationController id="oKq-b9-Cga" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Contacts" image="person.circle.fill" catalog="system" id="O6x-yC-gth"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="CHi-Cl-vEO">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="92.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="98.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -147,10 +147,10 @@
             </objects>
             <point key="canvasLocation" x="79" y="750"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="X5A-6H-bnV">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="6kT-YP-OCh" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="6kT-YP-OCh" customClass="TabBarViewController" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iUy-zQ-Mlo">
                         <autoresizingMask key="autoresizingMask"/>
