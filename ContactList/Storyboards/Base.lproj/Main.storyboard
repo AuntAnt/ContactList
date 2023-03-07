@@ -135,13 +135,14 @@
             </objects>
             <point key="canvasLocation" x="986" y="750"/>
         </scene>
-        <!--Tab Bar View Controller-->
+        <!--Persons List-->
         <scene sceneID="ZQ6-7U-6nV">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="0H0-0o-bbQ" customClass="TabBarViewController" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="2kq-pn-ef5"/>
+                    <navigationItem key="navigationItem" title="Persons List" id="2kq-pn-ef5"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Slm-wX-V76">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>

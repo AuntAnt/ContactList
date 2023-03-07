@@ -14,7 +14,6 @@ final class PersonListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tabBarController?.navigationItem.title = "Persons List"
         tableView.rowHeight = 50
     }
     

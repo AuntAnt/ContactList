@@ -11,11 +11,6 @@ final class DetailedPersonListViewController: UITableViewController {
     
     var persons: [Person]!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        tabBarController?.navigationItem.title = "Persons List"
-    }
-    
 }
 
 // MARK: - UITableViewDataSource
